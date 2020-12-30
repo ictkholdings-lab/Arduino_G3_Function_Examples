@@ -1,3 +1,9 @@
+:Author: ictkholdings
+:Email: wjhwang@ictk.com
+:Date: 29/12/2020
+:Revision: 1.0.0
+:License: Public Domain
+
 Arduino_G3_Function_Examples
 
 This library provides for efficient use of G3 using I2C, and understands G3 through some examples. 
