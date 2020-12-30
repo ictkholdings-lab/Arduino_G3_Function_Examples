@@ -1,4 +1,10 @@
-G3 Driver
+Arduino_G3_Function_Examples
 
-This library provides for efficient use of G3 using I2C, and understands G3 through some examples. To use G3, you need to change the buffer size of I2C. You need to change #define TWI_BUFFER_LENGTH 32 in twi.h of "C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\utility" to 140. Also, in "C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src"
+This library provides for efficient use of G3 using I2C, and understands G3 through some examples. 
+
+Step. 1
+To do some examples, you need to include the file from the link "https://github.com/ictkholdings-lab/Arduino_G3_Function_Examples.git" in your sketch library.
+
+Step. 2
+To use G3, you need to change the buffer size of I2C. You need to change #define TWI_BUFFER_LENGTH 32 in twi.h of "C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\utility" to 140. Also, in "C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src"
 #define BUFFER_LENGTH 32 should be changed to 140.
